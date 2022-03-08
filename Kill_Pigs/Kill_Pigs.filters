@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="BackGround">
+      <UniqueIdentifier>{d0ec429c-57fe-4884-882c-76dd1541c299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FoePlaneBox">
+      <UniqueIdentifier>{69e6fc31-8cff-43f6-abe4-0d46eede3463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameConfig">
+      <UniqueIdentifier>{9b496d2b-e319-4ae1-8f16-427cc107b07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFrame">
+      <UniqueIdentifier>{ff19a949-7830-4d52-a449-ee6894d4568a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GunnerBox">
+      <UniqueIdentifier>{a8fa6b44-7704-4dc8-b91d-c8a9c23a67e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlaneApp">
+      <UniqueIdentifier>{5b0c2bed-168c-4d6c-a0d3-c473979a2658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayerPlane">
+      <UniqueIdentifier>{d3374eee-3a3e-40da-b54a-3555a3c31d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{a5b33923-2bda-4b7f-b921-4f36f7483af4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BackGround\Background.cpp">
+      <Filter>BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="FoePlaneBox\FoePlane.cpp">
+      <Filter>FoePlaneBox</Filter>
+    </ClCompile>
+    <ClCompile Include="FoePlaneBox\FoePlaneBig.cpp">
+      <Filter>FoePlaneBox</Filter>
+    </ClCompile>
+    <ClCompile Include="FoePlaneBox\FoePlaneBox.cpp">
+      <Filter>FoePlaneBox</Filter>
+    </ClCompile>
+    <ClCompile Include="FoePlaneBox\FoePlaneMid.cpp">
+      <Filter>FoePlaneBox</Filter>
+    </ClCompile>
+    <ClCompile Include="FoePlaneBox\FoePlaneSma.cpp">
+      <Filter>FoePlaneBox</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFrame\WinMain.cpp">
+      <Filter>GameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="GunnerBox\Gunner.cpp">
+      <Filter>GunnerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="GunnerBox\GunnerBox.cpp">
+      <Filter>GunnerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPlane\PlayerPlane.cpp">
+      <Filter>PlayerPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneApp\PlaneApp.cpp">
+      <Filter>PlaneApp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackGround\Background.h">
+      <Filter>BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="FoePlaneBox\FoePlane.h">
+      <Filter>FoePlaneBox</Filter>
+    </ClInclude>
+    <ClInclude Include="FoePlaneBox\FoePlaneBig.h">
+      <Filter>FoePlaneBox</Filter>
+    </ClInclude>
+    <ClInclude Include="FoePlaneBox\FoePlaneBox.h">
+      <Filter>FoePlaneBox</Filter>
+    </ClInclude>
+    <ClInclude Include="FoePlaneBox\FoePlaneMid.h">
+      <Filter>FoePlaneBox</Filter>
+    </ClInclude>
+    <ClInclude Include="FoePlaneBox\FoePlaneSma.h">
+      <Filter>FoePlaneBox</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConfig\GameConfig.h">
+      <Filter>GameConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFrame\GameApp.h">
+      <Filter>GameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="GunnerBox\Gunner.h">
+      <Filter>GunnerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="GunnerBox\GunnerBox.h">
+      <Filter>GunnerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPlane\PlayerPlane.h">
+      <Filter>PlayerPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneApp\PlaneApp.h">
+      <Filter>PlaneApp</Filter>
+    </ClInclude>
+    <ClInclude Include="res\resource.h">
+      <Filter>res</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="飞机大战开发.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ammo.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\big.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\middle.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\p.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\small.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

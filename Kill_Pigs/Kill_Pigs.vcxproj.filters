@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BackGround\Background.cpp">
+      <Filter>BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFrame\WinMain.cpp">
+      <Filter>Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Kill_Pigs\Kill_Pigs.cpp">
+      <Filter>Kill_Pigs</Filter>
+    </ClCompile>
+    <ClCompile Include="Brid\Brid.cpp">
+      <Filter>Brid</Filter>
+    </ClCompile>
+    <ClCompile Include="WallBox\Wall.cpp">
+      <Filter>WallBox</Filter>
+    </ClCompile>
+    <ClCompile Include="WallBox\WallBox.cpp">
+      <Filter>WallBox</Filter>
+    </ClCompile>
+    <ClCompile Include="PigBox\Pig.cpp">
+      <Filter>PigBox</Filter>
+    </ClCompile>
+    <ClCompile Include="PigBox\PigBox.cpp">
+      <Filter>PigBox</Filter>
+    </ClCompile>
+    <ClCompile Include="BoomBox\Boom.cpp">
+      <Filter>Boombox</Filter>
+    </ClCompile>
+    <ClCompile Include="BoomBox\BoomBox.cpp">
+      <Filter>Boombox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackGround\Background.h">
+      <Filter>BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFrame\GameApp.h">
+      <Filter>Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Kill_Pigs\Kill_Pigs.h">
+      <Filter>Kill_Pigs</Filter>
+    </ClInclude>
+    <ClInclude Include="Brid\Brid.h">
+      <Filter>Brid</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConfig\GameConfig.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="WallBox\Wall.h">
+      <Filter>WallBox</Filter>
+    </ClInclude>
+    <ClInclude Include="WallBox\WallBox.h">
+      <Filter>WallBox</Filter>
+    </ClInclude>
+    <ClInclude Include="PigBox\Pig.h">
+      <Filter>PigBox</Filter>
+    </ClInclude>
+    <ClInclude Include="PigBox\PigBox.h">
+      <Filter>PigBox</Filter>
+    </ClInclude>
+    <ClInclude Include="BoomBox\Boom.h">
+      <Filter>Boombox</Filter>
+    </ClInclude>
+    <ClInclude Include="BoomBox\BoomBox.h">
+      <Filter>Boombox</Filter>
+    </ClInclude>
+    <ClInclude Include="res\resource.h">
+      <Filter>res</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\R-C.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IDB_WALL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IDB_PIG.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IDB_Brid.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IDB_BOOMING.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IDB_BOOM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\1y.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IDB_BACKGROUND.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\2y.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\3y.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\4y.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{ed6f6a50-e85e-4524-b1c6-efd9fbe57bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BackGround">
+      <UniqueIdentifier>{35728da7-1f6f-44e6-ad71-4faa66764cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{c3c54264-0cac-42e5-8938-aa5c8f0712d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{a2cf8e92-02db-4971-a68a-b4514b641668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frame">
+      <UniqueIdentifier>{a3251568-ef84-41ee-aa9e-52c6a72c26fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kill_Pigs">
+      <UniqueIdentifier>{14b904ce-24f4-4a68-86a6-1dd8214ca000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Brid">
+      <UniqueIdentifier>{3aa855cc-d73d-41c3-aa40-1e908da459b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WallBox">
+      <UniqueIdentifier>{2afe7d7b-f978-4625-95db-6558c8b5f92f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PigBox">
+      <UniqueIdentifier>{5c1a553e-4a76-40f7-a574-20b946b317e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boombox">
+      <UniqueIdentifier>{d41f397e-409e-4a90-ae17-6cf465127437}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Kill_Pigs.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\back.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\boom.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
